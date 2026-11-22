@@ -4,7 +4,15 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Abuzaid Consulting</title>
+  <title>Abuzaid Consulting | Executive Coaching &amp; Leadership Development</title>
+  <meta name="description" content="Executive coaching, leadership development, talent management and educational leadership from Abuzaid Consulting, built on competence and ownership.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Abuzaid Consulting">
+  <meta property="og:title" content="Abuzaid Consulting | Executive Coaching &amp; Leadership Development">
+  <meta property="og:description" content="Executive coaching, leadership development, talent management and educational leadership from Abuzaid Consulting, built on competence and ownership.">
+  <meta property="og:url" content="http://www.abuzaidconsulting.com/">
+  <meta property="og:image" content="http://www.abuzaidconsulting.com/assets/images/background.jpg">
+  <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="assets/images/favicon.png" />
 
   <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">-->
@@ -13,6 +21,9 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
   <link rel="stylesheet" href="templates/style.css">
   <link rel="stylesheet" href="assets/fontawesome-free-5.15.4-web/css/all.css">
 </head>
@@ -45,8 +56,8 @@
 
       <div class="row remaining-height">
         <div class="carousel-backdrop carousel-remaining-height">
-          <!-- data-interval false does not auto-play -->
-          <div id="homePageCarousel" class="carousel slide" data-ride="carousel" data-interval="false"
+          <!-- data-interval is how long each slide shows, in ms; data-pause="hover" pauses it under the mouse -->
+          <div id="homePageCarousel" class="carousel slide" data-ride="carousel" data-interval="10000"
             data-keyboard="true" data-pause="hover" data-touch="true">
             <ol class="carousel-indicators">
               <li data-target="#homePageCarousel" data-slide-to="0" class="active"></li>
@@ -56,31 +67,31 @@
             </ol>
             <div class="carousel-inner">
 
-              <div class="carousel-item active" id="carousel-item">
+              <div class="carousel-item active">
                 <div class="carousel-item-wrapper first-slide">
-                  <h4>ABOUT US</h4>
-                  <p class="text-justify">
-                    Abuzaid Consulting aims at providing first class services to its
+                  <h1 class="h4">ABOUT US</h1>
+                  <p class="text-left">
+                    Abuzaid Consulting aims at providing first-class services to its
                     clients in the areas of <strong>Executive Coaching</strong>, <strong>Talent Management</strong>,
                     and
                     <strong>Educational Excellence</strong>. Building on strong and varied experience in
                     the industrial and educational arenas and driven by the values of
                     competence and ownership, we strive to deliver services that meet
-                    customers current and emerging needs.
+                    customers’ current and emerging needs.
                   </p>
                 </div>
               </div>
 
-              <div class="carousel-item" id="carousel-item">
+              <div class="carousel-item">
                 <div class="carousel-item-wrapper second-slide">
                   <h4>OUR VALUES</h4>
                   <h5 class="our-values-h5">Competence</h5>
-                  <p class="text-justify">
-                    We stay current on the state of our business adding to our repository of knowledge, skills, and
+                  <p class="text-left">
+                    We stay current on the state of our business, adding to our repository of knowledge, skills, and
                     quality of service to our customer.
                   </p>
-                  <h5 class="our-values-h5"">Ownership</h5>
-                  <p class=" text-justify">
+                  <h5 class="our-values-h5">Ownership</h5>
+                  <p class="text-left">
                     We act on the principle that the customer’s business is our own business. We represent the
                     customer
                     in
@@ -89,7 +100,7 @@
                 </div>
               </div>
 
-              <div class="carousel-item" id="carousel-item">
+              <div class="carousel-item">
                 <div class="carousel-item-wrapper third-slide">
                   <h4>Educational Background</h4>
                   <ul class="no-bullet-points">
@@ -99,7 +110,7 @@
                 </div>
               </div>
 
-              <div class="carousel-item" id="carousel-item">
+              <div class="carousel-item">
                 <div class="carousel-item-wrapper fourth-slide">
                   <h4>Professional Certifications</h4>
                   <ul class="no-bullet-points">
@@ -188,13 +199,13 @@
           <div class="col">
             <ul class="social-footer">
               <li>
-                <a href="https://twitter.com/issamabuzaid4">
-                  <i class="fab fa-twitter"></i>
+                <a href="https://twitter.com/issamabuzaid4" aria-label="X (Twitter)">
+                  <svg class="x-logo" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/></svg>
                 </a>
               </li>
               <li class="linkedin-li">
-                <a href="https://www.linkedin.com/company/abuzaid-consulting/">
-                  <i class="fab fa-linkedin"></i>
+                <a href="https://www.linkedin.com/company/abuzaid-consulting/" aria-label="LinkedIn">
+                  <i class="fab fa-linkedin" aria-hidden="true"></i>
                 </a>
               </li>
             </ul>
@@ -208,6 +219,7 @@
           <script>
             document.write(/\d{4}/.exec(Date())[0])
           </script>
+        </p>
       </div>
 
     </footer>
