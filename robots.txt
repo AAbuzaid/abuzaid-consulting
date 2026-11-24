@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: http://www.abuzaidconsulting.com/sitemap.xml
