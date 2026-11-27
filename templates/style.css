@@ -346,7 +346,20 @@ html, body {
 .site-logo {
   display: block;
   width: auto;
-  height: 52px;
+  height: 44px;
+}
+
+/* Smaller logo on phones so it fits beside the menu button */
+@media screen and (max-width: 575.98px) {
+  .site-logo {
+    height: 40px;
+  }
+}
+
+@media screen and (max-width: 359.98px) {
+  .site-logo {
+    height: 34px;
+  }
 }
 
 .site-header .navbar-nav .nav-link {
@@ -916,7 +929,7 @@ html, body {
 
 .footer-logo {
   width: auto;
-  height: 48px;
+  height: 44px;
 }
 
 .site-footer .footer-tagline {
@@ -1052,16 +1065,4 @@ html, body {
     height: 54px;
     font-size: 30px;
   }
-}
-
-/* ===== Gentle fade-in as sections scroll into view (see templates/reveal.js) ===== */
-.reveal {
-  opacity: 0;
-  transform: translateY(22px);
-  transition: opacity .7s ease, transform .7s ease;
-}
-
-.reveal.is-visible {
-  opacity: 1;
-  transform: none;
 }
